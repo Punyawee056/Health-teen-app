@@ -325,7 +325,7 @@ class _LoginScreenState extends State<LoginScreen> {
         ),
         focusedErrorBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(16),
-          borderSide: const BorderSide(color: Colors.black, width: 2),
+          borderSide: const BorderSide(color: Colors.red, width: 2),
         ),
         contentPadding: const EdgeInsets.symmetric(
           horizontal: 16,

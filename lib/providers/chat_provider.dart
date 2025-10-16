@@ -3,6 +3,7 @@ import '../models/message.dart';
 import '../services/ai_service.dart';
 import '../models/health_data.dart';
 
+
 class ChatProvider extends ChangeNotifier {
   final AIService _aiService = AIService();
   

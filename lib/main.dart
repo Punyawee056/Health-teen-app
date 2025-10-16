@@ -1,3 +1,4 @@
+// main.dart
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'providers/health_data_provider.dart';
@@ -5,6 +6,8 @@ import 'providers/community_provider.dart';
 import 'providers/chat_provider.dart';
 import 'screens/main_screen.dart';
 import 'utils/constants.dart';
+import 'screens/login_screen.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
